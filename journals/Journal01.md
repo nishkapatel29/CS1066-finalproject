@@ -1,0 +1,15 @@
+Problem, uniqueness, and research
+
+I want to use AI in order to build a travel planning tool for the final project. Specifcally, this is a tool that calculates the minimum time needed to visit a list of destinations, accounting for travel times, opening hours, visit durations, and fixed reservations. Basically a shortest route planner. My preliminary research identified tools such as Wanderlog, which offers AI trip planning and route optimization, so shortest-route planning alone would not make my project unique. Outside of Wanderlog, there are not many AI powered trip planning tools, and you would have to pay a lot for trip itinerary planning from outside agencies. My specific focus is determining the shortest feasible trip across multiple days: deciding which places to visit each day and in what order while satisfying these constraints. I have tried looking online, and have not yet found something in which  this exact combination is avaible, so it gives me a specific gap to investigate. This excites me because it would turn the time-consuming process of comparing maps, schedules, and possible itineraries into a tool I could use when planning my own trips becuase right now I sit in Google Maps, changing around the locations to find the smallest route.
+
+Complexity and the role of AI
+
+This problem requires more than finding the shortest path between two places. The program must compare different visiting orders and daily groupings while accounting for constraints that interact. For example, the fastest route might reach an attraction after it closes or conflict with a reservation, so we have to account for those edge cases too. Building an optimization algorithm, connecting it to travel data, and testing these edge cases would be difficult for me to complete independently within the project timeline. Thus, AI would help me implement and refine these components greatly.
+
+My Expertise
+
+As a computer science concentrator, I have studied graph algorithms such as BFS and DFS, which provide a foundation for understanding how to represent destinations and explore possible routes. I also understand that BFS finds shortest paths in unweighted graphs, while realistic travel planning requires methods that account for different travel times and scheduling constraints. This background would help me evaluate AI-generated code and recognize incorrect assumptions. Although I understand the underlying concepts, manually comparing all possible itineraries would be impractical, which is precisely why building a computational tool would be useful.
+
+Connection to my course goals
+
+One of my course goals was to build something useful in my daily life that connects to skills I already have. Thus, thiis project directly advances that goal by applying my programming and algorithms background to a practical problem I encounter when traveling. It would also push me beyond my comfort zone by requiring me to combine familiar graph concepts with constrained optimization. 
